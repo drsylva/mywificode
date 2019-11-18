@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="JS WiFi QR Code Generator">
-    <meta name="author" content="Evgeni Golov">
+    <meta name="description" content="MY WiFi QR Code Generator">
+    <meta name="author" content="Git">
     <meta name="flattr:id" content="menw3k">
-    <title> JS WiFi QR Code Generator</title>
+    <title> MY WiFi QR Code Generator</title>
     <link rel="stylesheet" type="text/css" media="all" href="style.css">
     <link rel="stylesheet" type="text/css" media="all" href="style-responsive.css">
     <link rel="stylesheet" type="text/css" media="print" href="print.css">
@@ -54,7 +54,7 @@
 
     <div class="container">
     <section id="generator">
-    <div class="page-header"><h1 id="title">JS WiFi QR Code Generator</h1></div>
+    <div class="page-header"><h1 id="title">MY WiFi QR Code Generator</h1></div>
     <div id="history"></div>
     <form id="form">
         <div class="form-group has-feedback">
@@ -106,46 +106,12 @@
     <section id="about">
         <div class="page-header"><h1 class="anchor">About</h1></div>
         <p>
-        Ever wanted to create a cool QR code for your guests? But never wanted to type in your WiFi credentials into a form that submits them to a remote webserver to render the QR code? <i>QiFi</i> for the rescue! It will render the code in your browser, on your machine, so the WiFi stays as secure as it was before (read the code if you do not trust text on the internet :-))!
+        MY WiFi QR Code Generator will render the code in your browser, on your machine, so the WiFi stays as secure as it was before.
         </p>
         <p>
         If you use the Save-button to store a code, this is still secure, as the data is stored in HTML5 localStorage and is never transmitted to the server (in contrast to cookie-based solutions).
         </p>
-        <p>
-        Don't trust your browser either? Just pipe the string
-        <code>WIFI:S:&lt;SSID&gt;;T:&lt;WPA|WEP|&gt;;P:&lt;password&gt;;;</code>
-        through the QR code generator of your choice after <a href="https://github.com/zxing/zxing/wiki/Barcode-Contents#wi-fi-network-config-android-ios-11">reading the documentation</a>.
-        </p>
-
-        <h2>Supported Scanners</h2>
-        <h3>Android</h3>
-        <p>
-            <a href="https://play.google.com/store/apps/details?id=com.google.zxing.client.android">Barcode Scanner</a> from ZXing.
-        </p>
-        <p>
-            <a href="https://play.google.com/store/apps/details?id=de.gavitec.android">NeoReader</a>.
-        </p>
-        <p>
-            Huawei phones have a QR code scanner in HiVision mode. This mode has an eye-shaped icon and can be lauched from the lock screen by swiping up or from the camera.
-        </p>
-        <p>
-            Every other Android Barcode Scanner based on the <a href="https://code.google.com/p/zxing/">ZXing library</a>.
-        </p>
-        <h3>Maemo</h3>
-        <p>
-            <a href="http://maemo.org/packages/view/mbarcode/">mbarcode</a> with the <a href="http://maemo.org/packages/view/mbarcode-plugin-wifi/">mbarcode wifi plugin</a> on Maemo 5.
-        </p>
-        <h3>iOS</h3>
-        <p>
-            The iOS Camera App has <a href="https://www.macrumors.com/2017/06/06/iphone-can-scan-qr-codes-ios-11/">support for WiFi QR codes since iOS 11</a>.
-        </p>
-        <p>
-            <a href="https://itunes.apple.com/app/qr-reader-for-iphone/id368494609">QR Reader for iPhone</a> from TapMedia and <a href="https://itunes.apple.com/in/app/avira-insight-qr-code-scanner/id1151086651">Avira Insight QR Code Scanner</a> by Avira Holding GmbH &amp; Co. KG also support WiFi QR codes. Please note: Due to iOS design, third-party apps cannot modify WiFi settings directly and you'll have to copy&amp;paste the details. The only alternative would be downloading a mobile profile from the Internet, but that would mean leaking your credentials to a third-party.
-        </p>
-        <h3>Other</h3>
-        <p>
-            Every other QR scanner out there should be able to scan the code too, but probably won't interpret it as intended. If your scanner supports WiFi QR codes, please send me a mail!
-        </p>
+        
     </section>
     </div>
     <footer class="footer">
